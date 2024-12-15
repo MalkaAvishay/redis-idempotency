@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /idempotency
+spring:
+  application:
+    name: redis-idempotency
+  data:
+    redis:
+      host: localhost:6379
